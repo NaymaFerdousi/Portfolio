@@ -1,8 +1,79 @@
-*{
+  /* @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;500&family=Open+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&display=swap'); */
+
+  body{
     margin: 0;
     background-color:  #022a30;
     font-family: "Bai Jamjuree", sans-serif;
 }
 .header{
     color: white;
+    background-image: url('../images/photo-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.text-primary{
+    color: #e0f780;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#eef3db;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.nav-title{
+    font-weight:600 ;
+    font-size: 35px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+nav li:hover{
+    color:  #e0f780;
+}
+.banner{
+    margin: 80px 200px;
+}
+.intro{
+    max-width:fit-content;
+    font-weight: 800;
+    font-size: 25px;
+}
+.middle-title{
+    text-align: center;
+    margin-top: 5px;
+}
+.banner-sub-title{
+    color:#b6cbce ;
+    font-size: 20px;
+    margin-left: -35px;
+}
+.center{
+    padding-left: 60px;
+}
+.btn-primary{
+    padding: 12px 25px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color:#e0f780;
+    border-color: #e0f780;
+    color:  #033f47;
+    border-radius: 12px;
+}
+.connect{
+    font-weight: 700;
+    position: relative;
+    width: 0%;
+    height: 2px;
+    color: #b6cbce;
+    padding-left: 30px;
+    text-decoration: none;
 }
