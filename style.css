@@ -1,6 +1,6 @@
   /* @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;500&family=Open+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&display=swap'); */
 
-  body{
+ *{
     margin: 0;
     background-color:  #022a30;
     font-family: "Bai Jamjuree", sans-serif;
@@ -56,8 +56,14 @@ nav li:hover{
     font-size: 20px;
     margin-left: -35px;
 }
+.heading-sub-title{
+    margin-top: 15px;
+}
 .center{
     padding-left: 60px;
+}
+.link{
+    margin-top: 25px;
 }
 .btn-primary{
     padding: 12px 25px;
@@ -76,4 +82,24 @@ nav li:hover{
     color: #b6cbce;
     padding-left: 30px;
     text-decoration: none;
+}
+/* about styles */
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    margin-left: 150px;
+}
+.about .title{
+    color: #e0f780;
+    margin-bottom: 10px;
+}
+.about-title{
+    text-align: center;
+    margin: 200px 90px;
+}
+.about-sub-title{
+    font-weight: 700;
+    font-size: 25px ;
 }
