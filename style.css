@@ -1,46 +1,73 @@
   /* @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;500&family=Open+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&display=swap'); */
 
- *{
+*{
     margin: 0;
     background-color:  #022a30;
     font-family: "Bai Jamjuree", sans-serif;
-}
-.header{
-    color: white;
-    background-image: url('../images/photo-removebg-preview.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
-.text-primary{
-    color: #e0f780;
 }
 h1,h2,h3,h4,h5,h6{
     color:#eef3db;
     font-weight: 700;
 }
 nav{
+    
     display: flex;
     justify-content: space-between;
     margin: 50px 100px;
+   
 }
 .nav-title{
-    font-weight:600 ;
+    font-weight: 700;
     font-size: 35px;
+
+}
+.navbar{
+    /* padding-bottom: 0px; */
+    background-color: transparent;
+
 }
 nav ul{
+    background-color: transparent;
     display: flex;
     align-items: center;
 }
 nav li{
+    background-color: transparent;
     list-style: none;
-    margin-left: 50px;
-    font-size: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.text-primary{
+    color: #e0f780;
 }
 nav li:hover{
     color:  #e0f780;
+} 
+
+.navbar .nav-link{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
 }
+.navbar .nav-link:hover{
+    color: #e0f780;
+}
+.navbar .nav-link.active{
+    color:#e0f780 ;
+}
+
+.header{
+    color: white;
+    background-image: url('../images/photo-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 .banner{
-    margin: 80px 200px;
+    margin: 150px 200px;
+    background-color: transparent;
 }
 .intro{
     max-width:fit-content;
@@ -55,15 +82,18 @@ nav li:hover{
     color:#b6cbce ;
     font-size: 20px;
     margin-left: -35px;
+    background-color: transparent;
 }
 .heading-sub-title{
     margin-top: 15px;
+    background-color: transparent;
 }
 .center{
     padding-left: 60px;
 }
 .link{
     margin-top: 25px;
+    background-color: transparent;
 }
 .btn-primary{
     padding: 12px 25px;
@@ -73,7 +103,7 @@ nav li:hover{
     border-color: #e0f780;
     color:  #033f47;
     border-radius: 12px;
-}
+} 
 .connect{
     font-weight: 700;
     position: relative;
@@ -102,4 +132,76 @@ nav li:hover{
 .about-sub-title{
     font-weight: 700;
     font-size: 25px ;
+} 
+/* service style */
+.service-section{
+    margin: 180px 30px;
+    justify-content: space-between;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.col-md-4 {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #033f47;
+    border: 1px solid #033f47 ;
+    border-radius: 8px; 
+    padding: 20px;
+    /* transition: transform 0.2s ease-in-out;   */
+    margin-left: 120px;
+} 
+.service-title{
+    background-color: #033f47;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.service-sub-title{
+    background-color: #033f47;
+    color: #b6cbce;
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.service-link{
+    background-color: #033f47;
+    color: #b6cbce;
+    margin-left: 135px;
+}
+.connect:after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color:  #e0f780;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+.connect:hover::after{
+    width: 100%;
+}
+/* .iconbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color:  #e0f780;
+}  */
+/* skills style */
+.skills-title{
+    text-align: center;
+    font-size: 33px;
+    /* padding-bottom: 50px; */
+}
+.skills-sub-title{
+    color: #b6cbce;
+    /* text-align: center; */
+    margin: 10px 100px;
 }

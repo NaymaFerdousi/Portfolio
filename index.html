@@ -11,21 +11,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500&family=Open+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="line-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="aos.css"> -->
 <body>
-    <header class="header">
-        <nav>
-            <h2 class="nav-title">Na<span class="text-primary">y</span>ma</h2>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Skills</li>
-                <li>Project</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        <!-- header banner -->
-        <div class="banner">
+    <nav class="navbar">
+        <h2 class="nav-title">Na<span class="text-primary">y</span>ma</h2>
+        <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+    </nav>
+        <!-- header banner start  -->
+     <header class="header"> 
+        <div id="home" class="banner">
             <div class="intro">
               <h2 class="banner-title">
                   I'M A <span class="text-primary">WEB DEVELOPER</span>
@@ -37,7 +51,7 @@
             </div>
            <div class="heading-sub-title">
             <p class="banner-sub-title">This is Nayma Ferdousi.I’m creative designer & I’m very 
-                <p class="banner-sub-title center">passionate & dedicated to my work.</p>
+            <p class="banner-sub-title center">passionate & dedicated to my work.</p>
             </p>
            </div>
           <div class="link">
@@ -46,8 +60,9 @@
           </div>
         </div>
     </header>
+    <!-- header banner end -->
     <main>
-        <!-- about section -->
+        <!-- about section start -->
         <section id="about" class="about" >
             <div class="image">
                 <img src="images/IMG20210124143806-removebg-preview.png" alt="">
@@ -62,6 +77,54 @@
                 <button class="btn-primary link">Let's Talk</button>
             </div>
         </section>
+        <!-- about section end -->
+        <!-- service section start -->
+        <section id="service" class="service-section">
+            <div class="row">
+                <div class="col-md-4">
+                   <!-- <div class="iconbox">
+                        <i class="las la-server"></i>
+                      </div> -->
+                      <h4 class="service-title">Web Development</h4>
+                      <p class="service-sub-title">Every website should be built with two <br>primary Firtly, it needs to work across all <br>devices.
+                         Secondly, it needs to be fast as <br>possible.</p>
+                         <a href="#" class="connect service-link">Read More</a>
+                  </div>
+                <div class="col-md-4">
+                  <!-- <div class="iconbox">
+                       <i class="las la-server"></i>
+                     </div> -->
+                     <h4 class="service-title">Web Coding</h4>
+                     <p class="service-sub-title">Go from no-code to an in-demand junior <br>web developer. Start with the front-end <br>by learning HTML, CSS, and JavaScript & <br>huge demand in the industry for the skills.</p>
+                        <a href="#" class="connect service-link">Read More</a>
+                  </div>
+               <div class="col-md-4">
+                <!-- <div class="iconbox">
+                     <i class="las la-server"></i>
+                   </div> -->
+                   <h4 class="service-title">Web Designing</h4>
+                   <p class="service-sub-title">I craft high-performing and delightful <br>experiences. Then, master the back-end <br>and APIs to round out your full-stack <br>skills.</p>
+                      <a href="#" class="connect service-link">Read More</a>
+                </div>
+             <div class="col-md-4">
+              <!-- <div class="iconbox">
+                   <i class="las la-server"></i>
+                 </div> -->
+                 <h4 class="service-title">Web Programming</h4>
+                 <p class="service-sub-title">Web programming is used to create websites, <br>online stores, web applications, and other <br>online services that are accessed <br>through the Internet.</p>
+                    <a href="#" class="connect service-link">Read More</a>
+             </div>
+          </div>
+        </section>
+        <!-- service section end -->
+        <!-- skill section start -->
+        <section id="skills" class="skills">
+          <div>
+            <h1 class="skills-title">Skills</h1>
+            <p class="skills-sub-title">I craft high-performing and delightful experiences. Then, master the back-end and APIs to round out your full-stack skills.Go from no-code to an in-<br>demand junior web developer. Start with the front-end by learning HTML, CSS, PHP, Python and JavaScript & huge demand in the industry for the skills.</p>
+          </div>
+        </section>
+        <!-- skill section end -->
     </main>
     <footer>
 
